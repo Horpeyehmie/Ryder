@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Javascript form validation</title>
+	<meta charset="utf-8">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="Uthman.css">
 </head>
 <body>
-	<body = bgcolor="lightgrey">
-	<form action="#" method="post" onsubmit="return validation();">
-	Name: <input type="text" name="name" id="name"> <br><br>
-	Email: <input type="email" name="email" id="email"> <br><br>
-	Title: <input type="title" name="title" id="title"> <br><br>
-	Message: <br><br>
-	<textarea rows="10" cols="50"></textarea><br><br>
-	<input type="submit" name="submit" value="Insert Now">
+	<header>
+	<h1>Uthman Opeyemi Abdullahi</h1>
+	<i><p>With quality monitoring and reliable training, I have come to a place of better understanding of  industry practice <br> and a hold of requisite skills to meet basic requirements for a young mechanical engineer trainee. <br> Key skills, developed through internship have aided me in delivering team projects across notable companies where I found myself working. <br> I have also received commendations for my contribution to organizational success.</p></i>
+
+	<div class="form">
+		<p>Looking forward to working with you, you can reach me directly. Click <a href="form.html"><button>HERE</button></a> </p>
 		
-	</form>
-<div id="eresult" style="color:red"></div>
-<script type="text/javascript">
-	function validation(){
-	var name = document.getElementById('name').value;
-	var email = document.getElementById('email').value;
-	var title = document.getElementById('title').value;
-	var message = document.getElementById('message').value;
-	if(name=='' || email=='' ||  title=='' || message=='')
-	{
-		document.getElementById("eresult").innerHTML = "All field Required";
-		return false;
-	}
-	else if(name.lenght<4){
-		document.getElementById("eresult").innerHTML = "Name Must Be at least 4 character";
-		return false;
-	}
-	else if(email.lenght<4){
-		document.getElementById("eresult").innerHTML = "Email Must Be at least 4 character";
-		return false;
-	}
-	else if(title.lenght<2){
-		document.getElementById("eresult").innerHTML = "Title Must Be at least 4 character";
-		return false;
-	}
-	else if(message.lenght<20){
-		document.getElementById("eresult").innerHTML = "Message Must Be at least 4 character";
-		return false;
-	}
-	else {
-		return true;
-	}
-	}
-</script>
+	</div>
+
+	</header>
+	<hr>
+
+	<div>
+		<img src="img/catpic.jpg" align="right" alt="" width="75" height="45">
+	</div>
+
+	<div>
+		<a href="https://res.cloudinary.com/horpeyehmie/image/upload/v1566571251/_C__Users_USER_Desktop_Ryder_20HNG_firstname.html_sbnpeu.png"> <img src="img/catpic.jpg"> </a>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>SKILLS</h3>
+		<ul>
+			<li>Bachelor’s degree in Mechanical Engineering</li>
+			<li>Experience in the diagnosis of vehicles</li>
+			<li>Maintenance of automobiles and high tech vehicles</li>
+			<li>Proficient in Microsoft office suite (word, power point and excel)</li>
+			<li>Highly detailed oriented</li>
+			<li>Great presentation and communication skills</li>
+		</ul>
+	</div>
+
+	<hr>
+		<h3>WORK EXPERIENCE</h3>
+		<p> <b>AUTOMOBILE ENGINEER</b> <i>- Sep. 2016 - Current</i> </p>
+		<p>AUTOCLEANFIX</p>
+		<ul>
+			<li>Car scan</li>
+			<li>General maintenace on vehicles</li>
+			<li>Fixing and repair of cars</li>
+		</ul>
+
+		<p> <b>Automobile Engineer</b> <i>July 2017 - June 2018 </i> </p>
+		<p>Hidson Autocompany</p>
+		<ul>
+			<li>Car scan</li>
+			<li>General maintenance on cars</li>
+			<li>Fixing and repair of cars</li>
+			<li>Engine overhauling</li>
+		</ul>
+
+		<p> <b>AUTOMOBILE ENGINEER</b> <i>Sept. 2016 - May 2017</i> </p>
+		<p>Iyale Motors</p>
+		<ul>
+			<li>Car scan</li>
+			<li>General maintenance of cars</li>
+		</ul>
+
+		<hr>
+		<h3>EDUCATION</h3>
+		<p> <b>B.Eng (Mechanical)</b> <i>August 2016</i> Ahmadu Bello University, Zaria, Nigeria </p>
+		<p> <b>WEST AFRICAN SENIOR SCHOOL CERTIFICATE</b> <i>June 2010</i> Marigold Collee Oworonshoki, Lagos state </p>
+
+		<hr>
+
+		<h3>Achievement and Awards</h3>
+		<p> <b>Graduate member,</b> Nigerian Society of Engineers (NSE)</p>
+
+		<hr>
+
+		<h3>Leadership and Teamwork</h3>
+		<p>During the period of my training in Iyale Motors, Abuja, <br> I served as the Team-Lead in an integrated team of junior staffs saddled with the responsibility of delivering work in record time.<br> Project was delivered in record time with obvious competencies gained by each discipline member.</p>
+		<p>While serving in the position of the Mechanical Engineer, Iyale Motors, Abuja. <br> I worked with the executives to boost annual returns by 130% from the previous year.</p>
+
+		
+		<h3>CONTACTS</h3>
+		<a href="https://github.com/Horpeyehmie" target="_blank"><img src="img/github.png" alt="github" width="25" height="25"></a>
+		<a href="https://twitter.com/H_gold305" target="_blank"><img src="img/twitter.jpg" alt="twitter" width="25" height="25"></a>
+
+		<hr>
+
+	
+		<h3>REFEREES</h3>
+		<p> <b>HAFSAT MUSTAPHA</b> <br> SENIOR RESEARCHER AND CONSULTANT, TRANPARENCY AND DEVELOPMENT INFORMATION INITIATIVE <br> 08037183801 </p>
+		<p> <b>Prof. D. M. KULLA</b> <br> LECTURER, MECHANICAL ENGINEERING DEPARTMENT <br> AHMADU BELLO UNIVERSITY ZARIA <br>08036043394 </p>
+
 </body>
 </html>
